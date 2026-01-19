@@ -3,7 +3,7 @@ import streamlit as st
 from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_openai import ChatOpenAI
-from langchain_community.document_loaders import PyPDFLoader
+
 
 # 1. Load your secret keys
 load_dotenv()
